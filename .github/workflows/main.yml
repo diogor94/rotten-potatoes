@@ -39,4 +39,4 @@ jobs:
           push: true
           tags: |
             diogor94/rotten-potatoes:latest
-            diogor94/rotten-potatoes:%{{ github.run_number }}
+            diogor94/rotten-potatoes:${{ github.run_number }}
